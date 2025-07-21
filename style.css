@@ -1,0 +1,30 @@
+body {
+    background-image:url('bg.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+}
+#clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#clock {
+    font-size: 6.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #e6a5d0;
+    text-shadow: #635d5d 0px 0px 10px, #e6a5d0 0px 0px 20px, #e6a5d0 0px 0px 30px;
+}
+  @media (min-width: 768px) {
+      #clock {
+        font-size: 5vw; /* Smaller font for larger screens */
+      }
